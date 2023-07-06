@@ -37,5 +37,6 @@
      * Melihat, Pelayanan
      * Melihat, Loket
      * Melihat, mengelola Antrian
+     * Menambah, Pelayanan
 
 ## Terima Kasih!
