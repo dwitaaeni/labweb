@@ -18,7 +18,7 @@ Link berikut untuk melihat seputar aplikasi yang sedang dijalankan
 ## Tentang Website Antrian Puskesmas
 <p>Website ini menyediakan layanan untuk mengambil Antrian Puskesmas, untuk mengambil no Antrian, pilih Loket dan Pelayanan.</p>
 
-<P>Fitur Pemesanan:</p>
+<P>Fitur Pengguna:</p>
 
 - Mengambil no Antrian
 - Memilih Poli
