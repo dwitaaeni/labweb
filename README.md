@@ -9,15 +9,14 @@
 | Nabilah Ananda Putri    | 312110263         |
 | Zhafira Abadiningrum K  | 312110067         |
 
-# Link Demo Aplikasi
-## Demo Aplikasi
+## Demo Web Aplikasi
 http://puskesmashati.us.to/
 
 ## Demo Aplikasi Youtube
 
 
 
-# Tentang Website Antrian Puskesmas
+## Tentang Website Antrian Puskesmas
 <p>Website ini menyediakan layanan untuk mengambil Antrian Puskesmas, untuk mengambil no Antrian, pilih Loket dan Pelayanan.</p>
 
 <P>Fitur Pemesanan:</p>
@@ -27,16 +26,19 @@ http://puskesmashati.us.to/
 - Mengambil loket
 - Melihat Antrian
 
-# Fitur
-
-1. Login Admin
+## Fitur
+1. Registration Admin
+2. Login Admin
    - Yang tersedia:
      - Username: `admin`
      - Password: `admin`
-2. Apabila **SUDAH** login :
-     * Melihat, Pelayanan
-     * Melihat, Loket
-     * Melihat, mengelola Antrian
-     * Menambah, Pelayanan
 
-## Terima Kasih!
+3. Apabila **BELUM** login:
+     * Ambil nomor antrian
+     * Melihat Daftar Loket
+     * Melihat Detail Loket
+     * Melihat Daftar Antrian
+4. Apabila **SUDAH** login:
+     * CRUD Pelayanan
+     * CRUD Loket
+     * Melihat, mengelola antrian
