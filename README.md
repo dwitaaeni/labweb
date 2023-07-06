@@ -10,7 +10,7 @@
 | Zhafira Abadiningrum K  | 312110067         |
 
 ## Demo Web Aplikasi
-Klik link berikut untuk menjalankan aplikasi [Antrian] (http://puskesmashati.us.to/)
+Klik link berikut untuk menjalankan aplikasi 'Antrian' (http://puskesmashati.us.to/)
 
 ## Demo Aplikasi Youtube
 Link berikut untuk melihat seputar aplikasi yang sedang dijalankan 
