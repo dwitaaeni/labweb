@@ -1,0 +1,44 @@
+CRITICAL - 2023-07-03 15:13:11 --> Call to a member function getStatusCode() on null
+in ROOTPATH\spark on line 88.
+
+CRITICAL - 2023-07-03 15:13:45 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('MySQLi', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\Home.php(11): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\antrian-master\\public\\index.php')
+CRITICAL - 2023-07-03 15:15:34 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('MySQLi', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\Home.php(11): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\antrian-master\\public\\index.php')
+CRITICAL - 2023-07-03 15:24:57 --> Class "Kint\Renderer\Renderer" not found
+in APPPATH\Config\Kint.php on line 38.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(71): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-07-03 15:25:02 --> Class "Kint\Renderer\Renderer" not found
+in APPPATH\Config\Kint.php on line 38.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(71): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-07-03 15:27:01 --> Class "Kint\Renderer\Renderer" not found
+in APPPATH\Config\Kint.php on line 38.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\CodeIgniter.php(272): config('Config\\Kint')
+ 3 SYSTEMPATH\CodeIgniter.php(237): CodeIgniter\CodeIgniter->configureKint()
+ 4 SYSTEMPATH\CodeIgniter.php(199): CodeIgniter\CodeIgniter->initializeKint()
+ 5 ROOTPATH\spark(71): CodeIgniter\CodeIgniter->initialize()
